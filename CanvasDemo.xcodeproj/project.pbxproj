@@ -12,6 +12,7 @@
 		C90ABB741E93133900F4BE61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C90ABB721E93133900F4BE61 /* Main.storyboard */; };
 		C90ABB761E93133900F4BE61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C90ABB751E93133900F4BE61 /* Assets.xcassets */; };
 		C90ABB791E93133900F4BE61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C90ABB771E93133900F4BE61 /* LaunchScreen.storyboard */; };
+		C90ABB811E93157600F4BE61 /* CanvasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90ABB801E93157600F4BE61 /* CanvasViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		C90ABB751E93133900F4BE61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C90ABB781E93133900F4BE61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C90ABB7A1E93133900F4BE61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C90ABB801E93157600F4BE61 /* CanvasViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CanvasViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				C90ABB6E1E93133900F4BE61 /* AppDelegate.swift */,
 				C90ABB701E93133900F4BE61 /* ViewController.swift */,
+				C90ABB801E93157600F4BE61 /* CanvasViewController.swift */,
 				C90ABB721E93133900F4BE61 /* Main.storyboard */,
 				C90ABB751E93133900F4BE61 /* Assets.xcassets */,
 				C90ABB771E93133900F4BE61 /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C90ABB711E93133900F4BE61 /* ViewController.swift in Sources */,
+				C90ABB811E93157600F4BE61 /* CanvasViewController.swift in Sources */,
 				C90ABB6F1E93133900F4BE61 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
